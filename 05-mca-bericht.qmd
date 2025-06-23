@@ -1,0 +1,40 @@
+---
+title: "MCA Bericht"
+author: "Fabian Mundt"
+format: html
+---
+
+## Einführung
+
+Das hier ist ein kleines Beispiel-Dokument, das zeigt, wie R Code dynamisch in Texte (Markdown) integriert werden kann. Durch einen Klick auf "Run" (oben) wird eine Website erzeugt. 
+
+Auch das gesamte Einführungsbuch ist mit Quarto geschrieben worden.
+
+
+```{r}
+#| include: false
+
+library(readr)
+```
+
+## Eigenwerte
+
+Hier werden die Eigenwerte präsentiert.
+
+```{r}
+#| echo: false
+
+p_eigenwerte <- read_rds("repo/p-eigenwerte.rds")
+p_eigenwerte
+```
+
+## Passive Variable: Länder
+
+```{r}
+#| fig-height: 6
+#| fig-width: 5
+#| echo: false
+
+p_mca_media_ind_sup_final <- read_rds("repo/p-mca-media-ind-sup-final.rds")
+p_mca_media_ind_sup_final
+```
