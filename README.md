@@ -5,7 +5,7 @@ Hierbei handelt es sich um ein Beispielprojekt, das die im Buch [*R Essentials: 
 ![R Essentials](cover.webp "R Essentials")
 
 > [!NOTE] 
-> Um produktiv mit dem Beispiel zu arbeiten, ist Blättern im Buch und Nachlesen unerlässlich – das ist die Idee hinter dem Projekt. Also nicht frustrieren lassen, wenn etwas beim ersten Mal nicht klappt.
+> **Um produktiv mit dem Beispiel zu arbeiten, ist Blättern im Buch und Nachlesen unerlässlich – das ist die Idee hinter dem Projekt. Also nicht frustrieren lassen, wenn etwas beim ersten Mal nicht klappt.**
 >
 >Die einzelnen Skripte wurden mit umfassenden und weiterführenden Kommentaren ausgestattet. Teilweise haben diese Aufforderungscharakter und laden zum Spielen und Erporben ein.
 
